@@ -1,4 +1,4 @@
--- Функция установки менеджера пакетов packer.vim, если он не установлен
+-- Функция для установки менеджера пакетов packer.vim, если он не установлен
 local ensure_packer = function()
     local fn = vim.fn
     local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
