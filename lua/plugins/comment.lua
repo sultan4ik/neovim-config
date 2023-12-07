@@ -1,7 +1,7 @@
 -- Настройка плагина comment
-local status, comment = pcall(require, 'Comment')
+local status, comment = pcall(require, "Comment")
 if not status then
-    return
+	return
 end
 
 comment.setup()

@@ -19,7 +19,7 @@ opt.signcolumn = 'yes'              -- Отрисовка столбца при 
 opt.cursorline = true               -- Подсветка текущей строки 
 
 opt.backspace = 'indent,eol,start'  -- Настройка удаления по стандарту
-opt.wrap = fale                     -- Отключение переноса строк
+opt.wrap = false                     -- Отключение переноса строк
 opt.iskeyword:append('-')           -- Тире - часть слова
 
 opt.ignorecase = true               -- Игнорирование регистра при поиске

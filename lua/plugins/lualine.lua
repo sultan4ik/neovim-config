@@ -1,15 +1,13 @@
 -- Настройка плагина lualine
-local status, lualine = pcall(require, 'lualine')
+local status, lualine = pcall(require, "lualine")
 if not status then
-    return
+	return
 end
 
 local lualine_gruvbox = require("lualine.themes.gruvbox")
 
-lualine.setup(
-{
-    options = {
-        theme = lualine_gruvbox
-    }
-}
-)
+lualine.setup({
+	options = {
+		theme = lualine_gruvbox,
+	},
+})
